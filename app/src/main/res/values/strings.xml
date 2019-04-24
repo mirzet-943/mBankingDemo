@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">mBanking</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="error_field_required">Minimum 4 numbers required</string>
+    <string name="incorrect_pincode">Pincode is incorrect!</string>
+    <string name="retype_pincode">Type your pincode again</string>
+    <string name="fetching_data_please_wait">Fetching data\nPlease wait</string>
+    <string name="activity">Activity:</string>
+    <string name="full_screen">Full Screen</string>
+    <string name="year">Year:</string>
+
+</resources>

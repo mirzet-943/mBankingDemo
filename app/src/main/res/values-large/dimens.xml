@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyboard_button_padding">15dp</dimen>
+    <dimen name="keyboard_button_ripple_padding">30dp</dimen>
+    <dimen name="keyboard_button_text_size">15sp</dimen>
+    <dimen name="pin_code_round_size">25dp</dimen>
+    <dimen name="pin_code_round_margin">10dp</dimen>
+    <dimen name="light_gray_bar_margin_top">20dp</dimen>
+    <dimen name="light_gray_bar_margin_bottom">5dp</dimen>
+    <dimen name="light_gray_bar_margin_sides">50dp</dimen>
+    <dimen name="pin_code_forgot_text_size">16sp</dimen>
+    <dimen name="pin_code_step_text_size">20sp</dimen>
+    <dimen name="pin_code_elements_margin">20dp</dimen>
+    <dimen name="activity_pin_code_padding">20dp</dimen>
+    <dimen name="pin_code_logo_margin">30dp</dimen>
+    <dimen name="pin_code_round_top_margin">10dp</dimen>
+    <dimen name="pad_height">100dp</dimen>
+    <dimen name="pad_width">180dp</dimen>
+    <dimen name="button_image_width">30dp</dimen>
+    <dimen name="button_image_height">65dp</dimen>
+    <dimen name="account_total_amount">30sp</dimen>
+    <dimen name="account_currency">20sp</dimen>
+    <dimen name="account_iban">20sp</dimen>
+    <dimen name="icon_height">200dp</dimen>
+    <dimen name="description_text_size">17sp</dimen>
+    <dimen name="date_text_size">15sp</dimen>
+
+</resources>

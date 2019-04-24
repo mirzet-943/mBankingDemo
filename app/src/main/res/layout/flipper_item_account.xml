@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:background="@drawable/list_item_selector"
+    android:weightSum="3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account information"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/account_iban" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IBAN: HR123456789012345678901"
+            android:textAlignment="textStart"
+            android:id="@+id/ibanTextView"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/account_iban" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="22,00"
+                android:textAlignment="textStart"
+                android:textColor="@color/Black"
+                android:id="@+id/amountTextview"
+                android:textSize="@dimen/account_total_amount" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="HRK"
+                android:id="@+id/currencyTextView"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/account_currency" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

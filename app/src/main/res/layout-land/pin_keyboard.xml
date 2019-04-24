@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/keyboardLayout"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="4">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3">
+            <Button
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pad_1"
+                android:background="@drawable/pin_button_selector"
+                android:textSize="@dimen/keyboard_button_text_size"
+                android:layout_weight="1"
+                android:text="1" />
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/pad_2"
+                android:background="@drawable/pin_button_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/keyboard_button_text_size"
+                android:layout_weight="1"
+
+                android:text="2" />
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/pad_3"
+                android:background="@drawable/pin_button_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/keyboard_button_text_size"
+                android:layout_weight="1"
+
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <Button
+                android:layout_margin="5dp"
+                android:background="@drawable/pin_button_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pad_4"
+                android:layout_weight="1"
+
+                android:textSize="@dimen/keyboard_button_text_size"
+                android:text="4" />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@drawable/pin_button_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/keyboard_button_text_size"
+                android:id="@+id/pad_5"
+                android:text="5" />
+
+            <Button
+                android:layout_margin="5dp"
+                android:background="@drawable/pin_button_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pad_6"
+                android:layout_weight="1"
+
+                android:textSize="@dimen/keyboard_button_text_size"
+
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <Button
+                android:layout_margin="5dp"
+                android:background="@drawable/pin_button_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pad_7"
+                android:layout_weight="1"
+                android:textSize="@dimen/keyboard_button_text_size"
+                android:text="7" />
+
+            <Button
+                android:layout_margin="5dp"
+                android:background="@drawable/pin_button_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/keyboard_button_text_size"
+                android:id="@+id/pad_8"
+                android:text="8" />
+
+            <Button
+                android:layout_margin="5dp"
+                android:background="@drawable/pin_button_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/keyboard_button_text_size"
+                android:layout_weight="1"
+                android:id="@+id/pad_9"
+                android:text="9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/pin_button_selector"
+                android:textSize="@dimen/keyboard_button_text_size"
+                android:text="⌫" />
+
+            <Button
+                android:layout_margin="5dp"
+                android:background="@drawable/pin_button_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/pad_0"
+                android:textSize="@dimen/keyboard_button_text_size"
+                android:text="0" />
+            <Button
+                android:textSize="@dimen/keyboard_button_text_size"
+                android:layout_margin="5dp"
+                android:background="@drawable/pin_button_selector"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_submit"
+                android:text="OK" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

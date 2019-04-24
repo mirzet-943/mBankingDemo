@@ -1,0 +1,31 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- disable state. -->
+    <item android:state_enabled="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+            <stroke android:width="1dp" android:color="#999999" />
+            <gradient android:angle="270" android:endColor="#fefefe" android:startColor="#0077c2" />
+            <size android:width="@dimen/pad_width" android:height="@dimen/pad_height" />
+        </shape>
+    </item>
+
+    <!--released state. -->
+    <item android:state_pressed="false" >
+        <shape  xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+            <stroke android:width="1dp" android:color="#999999" />
+            <gradient android:endColor="@color/White" android:startColor="@color/LightGrey" />
+            <size android:width="@dimen/pad_width" android:height="@dimen/pad_height" />
+        </shape>
+    </item>
+
+    <!--pressed state. -->
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+            <stroke android:width="1dp" android:color="#999999" />
+            <gradient android:endColor="@color/White" android:startColor="@color/GreenYellow" />
+            <size android:width="@dimen/pad_width" android:height="@dimen/pad_height" />
+        </shape>
+    </item>
+</selector>
