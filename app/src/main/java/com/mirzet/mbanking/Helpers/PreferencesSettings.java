@@ -4,10 +4,6 @@ package com.mirzet.mbanking.Helpers;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by aleksandr on 2018/02/09.
- */
-
 public class PreferencesSettings {
 
     private static final String PREF_FILE = "settings_pref";
